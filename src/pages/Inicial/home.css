@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tomorrow:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap');
+
+
+body, html{
+    height: 100%;
+    
+}
+
+
+
+.menu{
+    width: 100%;
+    height: 80px;
+    background-color: #1B57A6;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo h2{
+    font-family: 'Rampart One', cursive;
+    color: white;
+    padding-top: 10px;
+    padding-left: 40px;
+    font-size: 28px;
+}
+
+.icon_wpp{
+    position: fixed;
+    background-color: rgb(0, 196, 0);
+    border-radius: 50px;
+    width: 65px;
+    height: 65px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    top: 83%;
+    left: 91%;
+}
+
+.menu > ul{
+    list-style: none;
+    display: flex;
+    padding-right: 40px;
+    float: right;
+}
+
+
+.menu > ul > li > a{
+    color: white;
+    font-family: 'Outfit', sans-serif;
+    text-decoration: none;
+    font-size: 20px;
+    letter-spacing: 0px;
+    
+}
+
+.menu > ul > li:hover a{
+    border-bottom: 1px solid white;
+    transition: 0.5s;
+}
+
+.menu > ul > li{
+    margin-left: 10px;
+    list-style-type: none;
+    padding-left: 8px;
+    border-radius: 5px;
+    margin-top: 26px;
+}
+
+
+.carousel{
+   padding-bottom: 10px; 
+}
+
+.carousel-img{
+    height: 20%;
+}
+
+.h3-carousel p{
+    margin: 0;
+    letter-spacing: 1px;
+    font-size: 16px;
+    font-family: 'Outfit', sans-serif;
+}
+
+.lambo{
+    width: 100%;
+    height: 30%;
+}
+
+.sobre{
+    width: 100%;
+    height: auto;
+    margin-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.titulo{
+    text-align: center;
+    font-size: 30px;
+    font-family: "Bebas Neue", cursive;
+    margin: 50px 0px;
+}
+
+.sobre-1{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-flow: wrap;
+}
+
+.sobre-p{
+    display: flex;
+    width: 40rem;
+    height:10rem;
+    margin: 55px 2rem;
+    flex-flow: wrap;
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+}
+
+.fundo-sobre{
+    width: 300px;
+    height: 250px;
+    margin-left: 6rem;
+    margin-top: 20px;
+    flex-flow: wrap;
+}
+
+.sobre-2{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 30px;
+    flex-flow: wrap;
+    flex-direction: row-reverse;
+}
+
+.fundo-sobre{
+    width: 300px;
+    height: 250px;
+    margin-right: 6rem;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.sec-service{
+    width: 100%;
+    height: auto;
+    background-color: #1B57A6;
+}
+
+.sec-service > h2{
+    padding-top: 30px;
+    color: white;
+}
+
+.cards{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    
+}
+
+.card-serv{
+    width: 24rem;
+    height: 25rem;
+    border-radius: 10px;
+    -webkit-box-shadow: -1px 7px 11px 2px rgba(0,0,0,0.31);
+    -moz-box-shadow: -1px 7px 11px 2px rgba(0,0,0,0.31);
+    box-shadow: -1px 7px 11px 2px rgba(0,0,0,0.31);
+    margin: 20px auto;
+    background-color:  white;
+    margin-bottom: 30px;
+}
+
+.card-serv1{
+    width: 24rem;
+    height: 25rem;
+    border-radius: 10px;
+    -webkit-box-shadow: -1px 7px 11px 3px rgba(0,0,0,0.31);
+    -moz-box-shadow: -1px 7px 11px 3px rgba(0,0,0,0.31);
+    box-shadow: -1px 7px 11px 3px rgba(0,0,0,0.31);
+    margin: 1rem auto;
+    background-color:  white;
+    margin: 20px auto;
+    margin-bottom: 30px;
+}
+
+.card-serv1 img{
+    margin-left: 33%;
+    margin-top: 20px;
+    width: 35%;
+    height: 35%;
+    
+}
+
+.card-serv img{
+    margin-left: 30%;
+    margin-top: 5px;
+}
+
+
+.card-serv1 h4{
+    font-family: 'Gemunu Libre', sans-serif;
+    text-align: center;
+    font-size: 26px;
+    margin-top: 15px;
+}
+
+
+.card-serv h4{
+    font-family: 'Gemunu Libre', sans-serif;
+    text-align: center;
+    font-size: 26px;
+    margin-top: 15px;
+}
+
+
+.card-serv1 p{
+    font-family: 'Gemunu Libre', sans-serif;
+    font-size: 20px;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+.card-serv p{
+    font-family: 'Gemunu Libre', sans-serif;
+    font-size: 20px;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#localizacao{
+    margin-top: 200px;
+}
+
+.localizacao{
+    width: 100%;
+    height: auto;
+    margin-top: 60px;
+}
+
+
+.localizacao img{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 120px;
+}
+
+footer{
+    width: 100%;
+    height: auto;
+    background-color: #1B57A6;
+    text-align: left;
+    display: flex;
+}
+
+.nav-footer > ul > li > a{
+    color: white;
+    font-family: "Gemunu Libre", sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 768px){
+    .cards{
+    flex-direction: column;
+    }
+
+    .carousel{
+        display: none;
+    }
+
+    .icon_wpp{
+        left: 83%;
+    }
+
+    .localizacao img{
+      width: 100%;
+      height: 250px;
+      margin-bottom: 180px;
+    }
+
+    .carousel-img{
+      width: 100%;
+      height: 30%;
+    }
+
+    .logo h2{
+        font-size: 18px;
+    }
+}
+
+

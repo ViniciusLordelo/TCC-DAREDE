@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@200&display=swap');
+
+
+.formCadastro{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Cadastro {
+    background-color: #ffffff;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+  }
+  
+  .bg-blue{
+    width: 100%;
+    height: 300px;
+    background-color: #1B57A6;
+  }
+
+  .cadastro__Container3 {
+    width: 30%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    margin-top: -80px;
+    margin: -90px auto;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+   
+  }
+
+  .formCadastro{
+    margin: 20px 50%;
+  }
+  
+  .cadastro__input {
+    width: 70%;
+    height: 40px;
+    border: 0;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    background-color: transparent;
+    outline: none;
+   
+    padding-left: 5px; 
+    margin-top: 20px;
+    font-family: 'Gemunu Libre', sans-serif;
+    font-size: 16px;
+  }
+  
+  .linhaInput{
+    width: 100%;
+    height: auto;
+    margin-left: 23%;
+  }
+
+  .iconInput{
+    margin-right: 5px;
+  }
+
+  .cadastro__botao {
+    width: 243px;
+    height: 57px;
+    background-color: #1B57A6;
+    color: #fff;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    border: none;
+    font-size: 100%;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 21px;
+    letter-spacing: 1px;
+  }
+
+  .cadastro__botao:hover{
+    background-color: #fafafa;
+    border: 1px solid black;
+    color: black;
+    transition: 0.3s;
+  }
+
+  
+  .cadastro__Container3 h1 {
+    width: 100%;
+    height: auto;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: 'Bebas Neue';
+    margin-top: 40px;
+  }
+  
+  .cadastro__Container3 a {
+    padding-right: 480px;
+    color: #fff;
+    padding-top: 25px;
+    }
+
+  
+    .cadastro__conjunto {
+      width: 100%;
+      height: 50px;
+      padding-left: 90px;
+      color: #fff;
+    }
+  
+    .cadastro__conjunto1 {
+      width: 100%;
+      height: 50px;
+      padding-right: 100px;
+      padding-block-end: 40px;
+      color: #fff;
+      text-align: right;
+    }
+
+
+  
+
+
+    .cadastro__Container2 img {
+      float: right;
+      width: 100%;
+      height: 100%;
+    }
+
+.separador{
+  
+  height: 20px;
+}
+
+
+.cadastro_Container4{
+  width: 30%;
+  height: 8%;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  border: 1px solid rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+  margin-top: 90px;
+  margin-bottom: 80px;
+
+}
+
+.cadastro_Container5{
+  width: 30%;
+  height: 8%;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  background-color: rgb(255, 255, 255);
+  margin-bottom: 60px;
+  margin-top: -60px;
+  
+}
+
+.cadastro_Container5 > img{
+  width: 300px;
+  height: 70px;
+  
+}
+
+.cadastro_p{
+  color: #262626;
+  color: rgba(var(--i1d,38,38,38),1);
+  font-size: 16px;
+  margin: 15px;
+  text-decoration: none;
+  font-family: 'Gemunu Libre', sans-serif;
+  text-align: center;
+}
+
+.cadastro_p > a{
+  text-decoration: none;
+  margin-left: 5px;
+  font-family: 'Gemunu Libre', sans-serif;
+  font-size: 16px;
+}
+
+@media screen and (max-width: 768px){
+  
+  .cadastro__Container3 {
+    width: 87%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 0px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    margin: -110px 4%;
+  }
+  
+  .Login__Container3 h1{
+    margin-top: 5%;
+    font-family: 'Tomorrow', sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    letter-spacing: 1px;
+  }
+  
+  .cadastro__input {
+    width: 270px;
+    height: 50px;
+    border: 0;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    background-color: transparent;
+    outline: none;
+    font-size: 20px;
+    padding-left: 15px;
+    font-family: 'Gemunu Libre', sans-serif;
+    font-weight: 500;
+    margin: 20px auto;
+    
+   }
+
+   .cadastro__botao {
+    width: 203px;
+    height: 47px;
+    background-color: #1B57A6;
+    color: #fff;
+    margin-top: 40px;
+    border-radius: 5px;
+    border: none;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 26px;
+    letter-spacing: 1px;
+    padding-top: 5px;
+    cursor: pointer;
+  }
+
+  .cadastro_Container4{
+    width: 86%;
+    height: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    margin-top: 190px;
+    margin-bottom: 80px;
+  
+  }
+
+  .linhaInput{
+    width: 100%;
+    height: auto;
+    margin-left: 14%;
+  }
+
+}

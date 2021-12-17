@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+.divBody{
+    width: 100%;
+    height: 100%;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: -190px auto;
+}
+
+.container > h2{
+    
+    text-align: center;
+    padding-top: 100px;
+}
+
+
+.img-404{
+    width: 60%;
+    height: 40%;
+    margin: 20px auto;
+}
+
+.wave{
+    width: 100%;
+    height: 50%;
+}

@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tomorrow:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+.FormLogin{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Login {
+  background-color: #f0f0f0;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.bg-blue{
+  width: 100%;
+  height: 600px;
+  background-color: #1B57A6;
+  padding: 0;
+  margin-top: -150px;
+}
+
+.Login__Container1 {
+  width: 700px;
+  height: 600px;
+  background-color: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  margin-top: -170px;
+  margin-bottom: 60px;
+}
+
+
+
+.Login__Container3 {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  border: 1px solid rgb(0, 0, 0);
+  background-color: transparent;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 80px;
+  background-color: rgb(255, 255, 255);
+  border-bottom-left-radius: 20px;
+  border-top-right-radius: 20px;
+  box-shadow: rgb(167, 167, 167) 4px 4px 7px 2px;
+}
+
+.Login__Container3 h1{
+  margin-top: 9%;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+
+.Login__Container3 a1 {
+  font-family: 'Gemunu Libre', sans-serif; 
+  color: rgb(131, 131, 131);
+  font-size: 20px;
+}
+
+
+.linhaInput2{
+  width: 100%;
+  height: auto;
+  margin-right: 1%;
+  margin-top: 30px;
+}
+
+.iconInput2{
+  margin-right: 5px;
+}
+
+.Login__input {
+ width: 435px;
+ height: 50px;
+ border: 0;
+ border-bottom: 2px solid rgb(0, 0, 0);
+ background-color: transparent;
+ outline: none;
+ font-size: 20px;
+ padding-left: 15px;
+ font-family: 'Gemunu Libre', sans-serif;
+ font-weight: 500;
+ margin-top: 30px;
+ 
+}
+
+.Login__botao {
+  width: 243px;
+  height: 57px;
+  background-color: #1B57A6;
+  color: #fff;
+  margin-top: 20px;
+  border-radius: 5px;
+  border: none;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 26px;
+  letter-spacing: 1px;
+  padding-top: 5px;
+  cursor: pointer;
+}
+
+.Login__botao:hover{
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  transition: 0.3s;
+}
+
+
+.Login__conjunto1 {
+  width: 100%;
+  height: auto;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  
+}
+
+.Login__conjunto1 a {
+  font-size: 18px;
+  padding-right: 20px;
+  font-family: 'Gemunu Libre', sans-serif;
+  text-decoration: none;
+}
+
+.Login__conjunto1 p{
+  font-size: 18px;
+  font-family: 'Gemunu Libre', sans-serif;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 768px){
+  .Login__Container1 {
+    width: 400px;
+    height: 500px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    margin-top: -120px;
+    margin-bottom: 80px;
+  }
+  
+  
+  
+  .Login__Container3 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 0px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+  }
+  
+  .Login__Container3 h1{
+    margin-top: 5%;
+    font-family: 'Tomorrow', sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    letter-spacing: 1px;
+  }
+  
+  
+  .Login__Container3 a1 {
+    font-family: 'Gemunu Libre', sans-serif; 
+    color: rgb(131, 131, 131);
+    font-size: 16px;
+  }
+  
+  .Login__input {
+    width: 335px;
+    height: 50px;
+    border: 0;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    background-color: transparent;
+    outline: none;
+    font-size: 20px;
+    padding-left: 15px;
+    font-family: 'Gemunu Libre', sans-serif;
+    font-weight: 500;
+    margin: 20px  auto;
+    
+   }
+
+   .Login__botao {
+    width: 203px;
+    height: 47px;
+    background-color: #1B57A6;
+    color: #fff;
+    margin-top: 0px;
+    border-radius: 5px;
+    border: none;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 26px;
+    letter-spacing: 1px;
+    padding-top: 5px;
+    cursor: pointer;
+  }
+  
+
+}
