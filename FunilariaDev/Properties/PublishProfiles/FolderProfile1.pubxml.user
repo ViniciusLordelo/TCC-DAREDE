@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\Users\fic\Desktop\Publish-v2</_PublishTargetUrl>
+    <History>True|2021-12-07T11:40:29.9363306Z;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <EFMigrations Include="FunilariaDev.Context.FunilariaContext">
+      <Value>
+      </Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>
